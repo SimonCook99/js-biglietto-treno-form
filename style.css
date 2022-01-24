@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b91450;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: 20px 0px;
+}
+
+
+.form{
+    background-color: white;
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.form div{
+    margin: 20px 40px;
+}
+
+div.compilation{
+    display: flex;
+}
+
+
+p{
+    color: #b91450;
+}
+
+div p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input, select{
+    border: 1px solid #b91450;
+    border-radius: 5px;
+    height: 30px;
+}
+
+div.bottoni button{
+    background-color: #cccccc;
+    color: #b91450;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+
+/* Sezione ticket*/
+.ticket{
+    background-color: white;
+    width: 80%;
+    height: 250px;
+    margin: 10px auto;
+}
