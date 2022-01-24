@@ -67,9 +67,38 @@ div.bottoni button{
 
 
 /* Sezione ticket*/
-.ticket{
+.ticket-container{
     background-color: white;
     width: 80%;
     height: 250px;
     margin: 10px auto;
+}
+
+.hide{
+    display: none;
+}
+
+.ticket{
+    padding: 0px 20px;
+
+    display: flex;
+}
+
+h2{
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.ticket .name{
+    background-color: #808080;
+    height: 150px;
+}
+
+
+.details{
+    display: flex;
+}
+
+h4{
+    margin: 20px 40px;
 }
