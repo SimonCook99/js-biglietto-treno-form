@@ -101,6 +101,16 @@ h3{
 
 .details{
     display: flex;
+
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.details p{
+    color: black;
+    align-self: flex-end;
+    position: relative;
+    right: 100px;
 }
 
 h4{
