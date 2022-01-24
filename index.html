@@ -19,18 +19,18 @@
 
             <div class="nome-cognome">
                 <p>Nome cognome</p>
-                <input type="text">
+                <input id="input-name" type="text">
             </div>
             
     
             <div class="kilometri">
                 <p>Km da percorrere</p>
-                <input type="number">
+                <input id="kilometri" type="number" min="1">
             </div>
     
             <div class="eta">
                 <p>Fascia d'età</p>
-                <select name="" id="">
+                <select id="Fascia-eta">
                     <option value="">Scegli una fascia d'età</option>
                     <option value="Minorenne">Minorenne</option>
                     <option value="Maggiorenne">Maggiorenne</option>
@@ -43,7 +43,7 @@
         <!--Contenitore dei bottoni di invio-->
         <div class="submission">
             <div class="bottoni">
-                <button id="">Genera</button>
+                <button id="generaBiglietto">Genera</button>
                 <button id="">Annulla</button>
             </div>
         </div>
@@ -53,24 +53,28 @@
 
     <h1> IL tuo biglietto</h1>
 
-    <div class="ticket-container">
+    <div class="ticket-container hide">
         
         <h2> Dettaglio passeggeri</h2>
 
         <div class="ticket">
             <div class="name">
                 <h2>Nome passeggero</h2>
-                <h3 id=""></h3>
+                <h3 id="name"></h3>
             </div>
 
             <div class="details">
                 <h4>Offerta</h4>
+                <p id="ticket-type"></p>
 
                 <h4>Carrozza</h4>
+                <p class="carrozza"></p>
                 
                 <h4>Codice CP</h4>
+                <p class="CP-code"></p>
 
                 <h4>Costo biglietto</h4>
+                <p class="price"></p>
             </div>
         </div>
     </div>

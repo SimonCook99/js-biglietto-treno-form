@@ -89,6 +89,10 @@ h2{
     padding: 20px;
 }
 
+h3{
+    padding: 20px;
+}
+
 .ticket .name{
     background-color: #808080;
     height: 150px;
