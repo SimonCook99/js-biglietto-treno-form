@@ -58,17 +58,15 @@ bottoneBiglietto.addEventListener("click", function(){
 });
 
 
+/* sezione tasto annulla e funzione correlata*/
 let bottoneAnnulla = document.getElementById("Annulla");
 
 bottoneAnnulla.addEventListener("click", function(){
 
-    let nomePasseggero = document.getElementById("input-name").value;
-    let kilometri = document.getElementById("kilometri").value;
-    let FasciaEta = document.getElementById("Fascia-eta").value;
+    let nomePasseggero = document.getElementById("input-name");
+    let kilometri = document.getElementById("kilometri");
+    let FasciaEta = document.getElementById("Fascia-eta");
 
-    console.log(nomePasseggero);
-
-    nomePasseggero = kilometri = "";
-    console.log("cliccato");
-    console.log(nomePasseggero);
+    /* resetto i valori dei 3 input*/
+    nomePasseggero.value = kilometri.value = FasciaEta.value = "";
 });
