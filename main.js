@@ -49,10 +49,10 @@ bottoneBiglietto.addEventListener("click", function(){
 
 
         /* numero random da 1 a 9*/
-        carrozza.innerHTML = Math.floor(Math.random() * 10);
+        carrozza.innerHTML = Math.floor(Math.random() * 9) + 1;
 
         /* numero random da 90000 a 99999*/
-        CPcode.innerHTML = Math.floor(Math.random() * 9000) + 90000;
+        CPcode.innerHTML = Math.floor(Math.random() * 10000) + 90000;
     }
 
 });
